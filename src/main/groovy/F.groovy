@@ -1,8 +1,9 @@
-import groovy.transform.Canonical
+import groovy.transform.builder.Builder
+
 // @author: m on 10.05.16 22:15.
-@Canonical
+@Builder
 class F {
 
-int a
+    int a
 
 }
